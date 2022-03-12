@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>asdsa</title>
+
+		<link rel="stylesheet" href="./style.css" media="all" />
+		<style>
+			body {
+				margin:0;
+				background-color: #CCC;
+			}
+			.wrapper {
+				max-width: 1200px;
+				margin:0 auto;
+			}
+			.navbar {
+				display: flex;
+				padding:20px;
+				background-color:brown;
+			}
+			.navbar a {
+				color:white;
+				text-decoration: none;
+			}
+			.navbar ul {
+				display: flex;
+				list-style-type: none;
+				flex-grow: 10;
+				margin:0;
+				padding:0;
+			}
+			.navbar .login {
+
+		 		margin-left: auto;
+
+			}
+			.navbar ul li {
+				padding:10px;
+				order: 5; /* default is 0 */
+			}
+			.container {
+				padding:20px 30px;
+			}
+			.message {
+				padding:10px;
+				background-color: chartreuse;
+				border:1px solid green;
+				border-radius: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wrapper">
+			<nav class="navbar">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About me</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+				<div class="login">
+					<ul>
+						<li><a href="#">Home</a></li>
+					</ul>
+				</div>
+			</nav>
+			<div class="container">
+				<div class="message">Hello world</div>
+				<p>Hello world</p>
+			</div>
+		</div>
+	</body>
+</html>
